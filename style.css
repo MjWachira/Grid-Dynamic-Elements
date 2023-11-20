@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  #image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+
+  .image-item {
+    display: block;
+    width: 100%;
+    object-fit: cover; /* Ensure the entire image is visible within the container */
+  }
